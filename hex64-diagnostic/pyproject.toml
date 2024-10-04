@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hex64-diagnostic"
+version = "0.1.0"
+description = ""
+authors = ["Alexeev Bronislav <bro.alexeev@inbox.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.0.1"
+pandas = "^2.2.2"
+rich = "^13.7.1"
+ruff = "^0.5.7"
+psutil = "^6.0.0"
+sympy = "^1.13.1"
+py-cpuinfo = "^9.0.0"
+diskinfo = "^3.1.2"
+matplotlib = "^3.9.2"
+pyqt5 = "^5.15.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
