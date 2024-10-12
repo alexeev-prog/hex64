@@ -90,11 +90,11 @@ class hex64App(QtWidgets.QMainWindow, ui_design.Ui_MainWindow):
 		while True:
 			self.hdm.update_data()
 
-			self.label_6.setText(f'{self.hdm.get_cpu_info()['brand_raw']} {self.hdm.get_cpu_info()['vendor_id_raw']} {self.hdm.get_cpu_info()['bits']}bits')
+			self.label_6.setText(f'{self.hdm.get_cpu_info()["brand_raw"]} {self.hdm.get_cpu_info()["vendor_id_raw"]} {self.hdm.get_cpu_info()["bits"]}bits')
 			self.label_7.setText(f"Количество физических ядер: {self.hdm.get_cpu_info()['physical_cores_count']}")
 			self.label_10.setText(f"Всего ядер: {self.hdm.get_cpu_info()['total_cores_count']}")
 			self.label_12.setText(f"Максимальная {self.hdm.get_cpu_info()['cpu_frequency']['max']}МГц, минимальная {self.hdm.get_cpu_info()['cpu_frequency']['min']}МГц, текущая {self.hdm.get_cpu_info()['cpu_frequency']['current']}МГц")
-			self.label_9.setText(f'Процент использования: {self.hdm.get_cpu_info()['cpu_usage_percentage']}%')
+			self.label_9.setText(f'Процент использования: {self.hdm.get_cpu_info()["cpu_usage_percentage"]}%')
 			self.label_11.setText(f'Статистика: {" ".join([f"{name}={value}" for name, value in self.hdm.get_cpu_info()["cpu_statistics"].items()])}')
 			self.label_8.setText(f'Кэш процессора: l1 (data={self.hdm.get_cpu_info()["l1_data_cache_size"]}, instruction={self.hdm.get_cpu_info()["l1_instruction_cache_size"]})\nl2 (cache={self.hdm.get_cpu_info()["l2_cache_size"]}, line={self.hdm.get_cpu_info()["l2_cache_line_size"]}, associativity={self.hdm.get_cpu_info()["l2_cache_associativity"]})\nl3 (cache={self.hdm.get_cpu_info()["l3_cache_size"]})')
 
@@ -139,7 +139,7 @@ class hex64App(QtWidgets.QMainWindow, ui_design.Ui_MainWindow):
 			io_base_data = self.network_sensor.get_io_statistics()
 
 			self.label_29.setText(f"I/O полная статистика: {net_statistics}")
-			self.label_30.setText(f"Отправлено {io_base_data["sent"]} байтов, принято {io_base_data["recv"]} байтов")
+			self.label_30.setText(f'Отправлено {io_base_data["sent"]} байтов, принято {io_base_data["recv"]} байтов')
 
 			interfaces = self.network_sensor.get_all_addresses_info()
 
