@@ -3,11 +3,11 @@
 <p align="center">Инструмент для мониторинга и диагностики ПК на Python</p>
 <br>
 <p align="center">
-    <img src="https://img.shields.io/github/languages/top/alxvdev/hex64?style=for-the-badge">
-    <img src="https://img.shields.io/github/languages/count/alxvdev/hex64?style=for-the-badge">
-    <img src="https://img.shields.io/github/stars/alxvdev/hex64?style=for-the-badge">
-    <img src="https://img.shields.io/github/issues/alxvdev/hex64?style=for-the-badge">
-    <img src="https://img.shields.io/github/last-commit/alxvdev/hex64?style=for-the-badge">
+    <img src="https://img.shields.io/github/languages/top/alexeev-prog/hex64?style=for-the-badge">
+    <img src="https://img.shields.io/github/languages/count/alexeev-prog/hex64?style=for-the-badge">
+    <img src="https://img.shields.io/github/stars/alexeev-prog/hex64?style=for-the-badge">
+    <img src="https://img.shields.io/github/issues/alexeev-prog/hex64?style=for-the-badge">
+    <img src="https://img.shields.io/github/last-commit/alexeev-prog/hex64?style=for-the-badge">
     </br>
 </p>
 
@@ -23,13 +23,13 @@
 Вы можете получить документацию по проекту по [этой ссылке.](./hex64-diagnostic/docs/index.md).
 
 ## Контакты и поддержка
-Если у вас есть вопросы по использованию hex64, создайте [issue](https://github.com/alxvdev/hex64/issues/new) в репозитории или пришлите мне письмо на почту bro.alexeev@inbox.ru.
+Если у вас есть вопросы по использованию hex64, создайте [issue](https://github.com/alexeev-prog/hex64/issues/new) в репозитории или пришлите мне письмо на почту bro.alexeev@inbox.ru.
 
 Вы можете также написать мне в телеграм: [@alexeev_dev](https://t.me/alexeev_dev)
 
 hex64 Diagnostic - Open Source проект, и он поддерживается только благодаря вам.
 
-Релизы проекта доступны по [этой ссылке](https://github.com/alxvdev/hex64/releases).
+Релизы проекта доступны по [этой ссылке](https://github.com/alexeev-prog/hex64/releases).
 
 ## Требования
 
@@ -42,7 +42,7 @@ hex64 Diagnostic - Open Source проект, и он поддерживаетс�
  + Poetry (version 1.8.3)
 
 ## Установка
-Если вы хотите получить стабильный релиз [на странице релизов](https://github.com/alxvdev/hex64/releases). Если вы хотите получить новейшую нестабильную git-версию, то следуйте следующим шагам:
+Если вы хотите получить стабильный релиз [на странице релизов](https://github.com/alexeev-prog/hex64/releases). Если вы хотите получить новейшую нестабильную git-версию, то следуйте следующим шагам:
 
 1. Клонируйте репозиторий
 
