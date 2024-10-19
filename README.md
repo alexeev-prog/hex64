@@ -46,18 +46,23 @@ hex64 Diagnostic - Open Source проект, и он поддерживаетс�
 
 1. Клонируйте репозиторий
 
-```bash
-git clone https://github.com/alxvdev/hex64.git
-cd hex64 Diagnostic
-```
+   ```bash
+   git https://github.com/alexeev-prog/hex64.git
+   
+   ```
+
+   ```bash
+   cd hex64/hex64-diagnostic
+   ```
 
 2. Просто установите зависимости и войдите в шелл виртуального окружения.
 
-```bash
-poetry install
-poetry shell
-```
-
+   ```bash
+   poetry install
+   ```
+   ```bash
+   poetry shell
+   ```
 3. Готово! 💪 🎉  Вы можете использовать hex64 Diagnostic!
 
 ## Функционал
