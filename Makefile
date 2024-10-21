@@ -1,5 +1,5 @@
 CC = gcc
-CC_FLAGS = -shared -W1 -fPIC
+CC_FLAGS = -shared -W -fPIC
 
 BASE_SRC_DIR = hex64_diagnostic/clibs/src
 BASE_BIN_DIR = hex64_diagnostic/clibs/bin

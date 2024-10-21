@@ -2536,7 +2536,7 @@ class Ui_MainWindow(object):
 		self.label_30.setText(_translate("MainWindow", "Отправлено 0 байтов, принято 0 байтов"))
 		self.label_31.setText(_translate("MainWindow", "Информация о сетевых интерфейсах"))
 		self.pushButton_16.setText(_translate("MainWindow", "Сохранить полный отчет о сети"))
-		self.pushButton_15.setText(_translate("MainWindow", "Даиграмма полной I/O статистики"))
+		self.pushButton_15.setText(_translate("MainWindow", "Диаграмма полной I/O статистики"))
 		self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_8), _translate("MainWindow", "Сеть"))
 		self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "Информация"))
 		self.tabWidget_3.setTabText(self.tabWidget_3.indexOf(self.tab_9), _translate("MainWindow", "Однопроцессорный"))
