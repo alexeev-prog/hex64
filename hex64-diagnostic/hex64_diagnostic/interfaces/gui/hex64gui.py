@@ -64,7 +64,7 @@ class hex64App(QtWidgets.QMainWindow, ui_design.Ui_MainWindow):
 		self.pushButton_14.clicked.connect(lambda: Thread(target=self.temp_plot.draw_bar_full_temps).start())
 
 		self.pushButton_16.clicked.connect(lambda: Thread(target=self.save_network_report).start())
-		self.pushButton_15.clicked.connect(lambda: Thread(target=self.network_plot.draw_bar_temp_by_sensor_name).start())
+		self.pushButton_15.clicked.connect(lambda: Thread(target=self.network_plot.draw_bar_io_statistics).start())
 
 	def save_disk_report(self):
 		with open(f'disk_{get_current_datetime(True)}.json', 'w') as file:
